@@ -1,0 +1,97 @@
+.App {
+  /* text-align: center; */
+  margin: 0 5%;
+}
+.Appo {
+  margin: 0 40%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.lable{
+  font-size: 17px;
+  color: #232629;
+  font-weight: bold;
+  font-family: "Arial"
+}
+.head {
+  font-size: 35px;
+  color: #232629;;
+  font-family: "Arial"
+}
+.btn_reg{
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: rgb(75, 75, 221);
+  border: 1px solid rgb(199, 199, 199);
+  color: rgb(255, 255, 255);
+  height:45px;
+  width: 115px;
+  margin-top:10px;
+}
+.inpt{
+  height:29px;
+  width: 350px;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 5px;
+  margin:5px 0 10px 0;
+}
+.link{
+  color:rgb(75, 75, 221);
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.h1{
+  font-size: 50px;
+  color: #232629;;
+  font-family: "Arial";
+  font-weight: bolder;
+
+}
+.h2{
+  font-size: 40px;
+  color: #232629;;
+  font-family: "Arial";
+  font-weight: bolder;
+}
+.inptfield{
+  height:40px;
+  width: 45%;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 5px;
+  margin:5px 0 10px 0;
+}
+.btn_add{
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: rgb(83, 43, 194);
+  border: 1px solid rgb(199, 199, 199);
+  color: rgb(255, 255, 255);
+  height:55px;
+  width: 200px;
+  margin-top:10px;
+}
