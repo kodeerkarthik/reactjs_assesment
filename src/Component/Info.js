@@ -17,6 +17,17 @@ class Info extends Component {
                     </div>
                     <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                         <p className="h2">View User</p>
+                        <div className="row">
+                            <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                               Name 
+                            </div>
+                            <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                Username
+                            </div>
+                            <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                Actions
+                            </div>
+                        </div>
                     </div>
                     <div className="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>             
                 </div>
