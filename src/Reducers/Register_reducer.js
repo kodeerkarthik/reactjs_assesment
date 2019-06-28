@@ -15,9 +15,9 @@ export default(state=intialState,action)=>{
             return{...state,password:action.payload}
         }
         case ActionTypes.REG:{
-            browserHistory.push('login')
+            browserHistory.push('/')
         }
         default: 
-            return state;
+            return state; 
     }
 }

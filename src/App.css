@@ -68,7 +68,7 @@
   font-size: 50px;
   color: #232629;;
   font-family: "Arial";
-  font-weight: bolder;
+  font-weight: bold;
 
 }
 .h2{
@@ -76,7 +76,7 @@
   margin-top: 50px;
   color: #232629;;
   font-family: "Arial";
-  font-weight: bolder;
+  font-weight: bold;
 }
 .inptfield{
   height:40px;
@@ -84,6 +84,7 @@
   border: 1px solid rgb(199, 199, 199);
   border-radius: 5px;
   margin:5px 0 10px 0;
+  padding-left: 10px;
 }
 .btn_add{
   border-radius: 5px;
@@ -96,3 +97,10 @@
   width: 200px;
   margin-top:10px;
 }
+.margint{
+  margin-top: 30px;
+}
+.linegap {
+  margin-top: 10px;
+}
+.red{ color:red; }
