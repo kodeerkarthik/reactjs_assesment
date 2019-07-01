@@ -39,22 +39,22 @@ class Register extends Component {
        
         if(fnamel===0) this.setState({fname:'Firstname is required'});
         else if(!reg_user.test(this.state.firstname)) this.setState({fname:'Invalid Firstname'});
-        else if(fnamel>0) this.setState({fname:''});
+        // else if(fnamel>0) this.setState({fname:''});
         else t++;
            
         if(lnamel===0) this.setState({lname:'Lastname is required'});
         else if(!reg_user.test(this.state.lastname)) this.setState({lname:'Invalid Lastname'}); 
-        else if(lnamel>0) this.setState({lname:''});
+        // else if(lnamel>0) this.setState({lname:''});
         else t++;
         
         if(usernamel===0) this.setState({user:'Username is required'});
         else if(!reg_user.test(this.state.username)) this.setState({user:'Invalid Username'});
-        else if(usernamel>0) this.setState({user:''});
+        // else if(usernamel>0) this.setState({user:''});
         else t++;
         
         if(pwdl===0) this.setState({pwd:'Password is required'});
         else if(!reg_pwd.test(this.state.password)) this.setState({pwd:'Invalid Password'});
-        else if(pwdl>0) this.setState({pwd:''});
+        // else if(pwdl>0) this.setState({pwd:''});
         else t++;
         
         if(t>3) {
@@ -87,7 +87,7 @@ class Register extends Component {
                         <p className='red'>{this.state.pwd}</p>
                         <button className="btn_reg" onClick={this.handleSubmit}>Register</button>
                         <label className="link" onClick={this.cancel}>Cancel</label> 
-                        
+                        {/* <a href="/" className="link">Cancel</a> */}
                     </div>
                     <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4"> <h2>{this.props.regmsg}</h2></div>
                 </div>   
