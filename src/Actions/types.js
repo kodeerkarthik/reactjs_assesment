@@ -1,3 +1,4 @@
 export const REG='REG';
-export const STOREUSER='STOREUSER';
-export const STOREPWD='STOREPWD';
+export const LOGIN='LOGIN';
+
+// export const STOREPWD='STOREPWD';

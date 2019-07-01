@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch,} from 'react-router-dom';
 import Login from './Component/Login.js';
 import Register from './Component/Register';
 import Info from './Component/Info';
@@ -19,5 +19,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

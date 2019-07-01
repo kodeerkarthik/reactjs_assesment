@@ -2,22 +2,36 @@ import * as ActionTypes from '../Actions/types';
 import browserHistory from '../utils/browserHistory'; 
 
 
-const intialState = {
-   username:'',
-   password:''  
+var intialState = {
+   loginmsg:'',
+   regmsg:''
 };
+// const reducer = (state=intialState,action)=>{
+//     var newState={...state};
+//     switch(action.type){
+//         case ActionTypes.REG:newState.regmsg='Register successfull';
+//         break;
+//         case ActionTypes.LOGIN:newState.loginmsg='Login successfull';
+//         break;            
+// }
+// return newState;
+// }
+// export default reducer;
 export default(state=intialState,action)=>{
+    debugger
     switch(action.type){
-        case ActionTypes.STOREUSER:{
-            return{...state,username:action.payload}
-        }
-        case ActionTypes.STOREPWD:{
-            return{...state,password:action.payload}
+
+        case ActionTypes.LOGIN:{
+            return{...state,loginmsg:'Login successfull'}
+                
         }
         case ActionTypes.REG:{
-            browserHistory.push('/')
+            return{...state,regmsg:'Register successfull'}
+console.log(this.state.loginmsg)
         }
+        
         default: 
             return state; 
     }
 }
+

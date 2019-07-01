@@ -1,17 +1,17 @@
 import *as ActionTypes from './types.js';
 
-export function Storeuser(id){
+export function LOGIN(){
     return function(dispatch){
-        dispatch({type:"STOREUSER",payload:id});
+        dispatch({type:"LOGIN"});
     }
 }
-export function Storepwd(id){
-    return function(dispatch){
-        dispatch({type:"STOREPWD",payload:id});
-    }
-}
-export function Registerclick(){
+export function REG(){
     return function(dispatch){
         dispatch({type:"REG"});
+    }
+}
+export function handleClick(){
+    return function(dispatch){
+        dispatch({type:"CLICK"});
     }
 }
