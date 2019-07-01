@@ -29,15 +29,19 @@ class Login extends Component {
         
         if(usernamel===0)this.setState({user:'Username is required'});
         else if(!reg_user.test(this.state.username)) this.setState({user:'Invalid Username'});
-        else temp++;
-
+        else {
+            temp++;
+            this.setState({user:''});
+        }
         if(pwdl===0){this.setState({pwd:'Password is required'});}
         else if(!reg_pwd.test(this.state.password)){this.setState({pwd:'Invalid Password'});}
-        else temp++;
-        
+        else {
+            temp++;
+            this.setState({pwd:''});
+        }
         if(temp>1){ 
             browserHistory.push('info');
-            // this.props.LOGIN();
+            this.props.LOGIN();
         }
     }
     render() {
